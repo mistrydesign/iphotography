@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #heroImage{
-	background-image: url(../images/fog-back.jpg);
+	background-image: images/fog-back.jpg;
 	background-position: center center;
 	background-size: cover;
 	min-height: 800px;

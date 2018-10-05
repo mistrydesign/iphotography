@@ -22,7 +22,7 @@
 
 #masthead #logo #navigation #mainNav {
 	background-color: #000;
-		
+
 }
 #masthead #navigation #mainNav ul li{
 	background-color: #000;
@@ -42,7 +42,7 @@
 
 #navigation #mainNav ul li a:hover{
 	color: #8dc63f;
-	border-bottom: solid medium #8dc63f;	
+	border-bottom: solid medium #8dc63f;
 }
 
 #logo{
@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #heroImage{
-	background-image: url(../Images/fog-back.jpg);
+	background-image: url(../images/fog-back.jpg);
 	background-position: center center;
 	background-size: cover;
 	min-height: 800px;
@@ -104,7 +104,7 @@ h1{
 }
 
 .galleryImage{
-	display: inline-block;	
+	display: inline-block;
 }
 .galleryImage img:hover{
 	-webkit-opacity: .4;
@@ -174,11 +174,11 @@ input[type=submit]:hover{
 #pageFooter #social ul li {
 	display: inline;
 	margin-right: 25px;
-} 
+}
 
 #pageFooter #social ul li a{
 	display: inline-block;
-	background-image: url(../Images/social.png);
+	background-image: url(../images/social.png);
 	background-repeat: no-repeat;
 	width: 100px;
 	height: 100px;
@@ -217,6 +217,3 @@ input[type=submit]:hover{
 	padding: 90px 0 0 0;
 	color: #fff;
 }
-
-
-

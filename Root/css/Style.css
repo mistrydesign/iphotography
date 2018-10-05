@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* CSS Document */
+#wrapper {
+	width: 100%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.clearfix:after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+#masthead{
+	background-color: #000;
+	height:80px;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+#masthead #logo #navigation #mainNav {
+	background-color: #000;
+		
+}
+#masthead #navigation #mainNav ul li{
+	background-color: #000;
+	display: inline-block;
+	font-family: 'nexa_slab_bold_freeregular', sans-serif;
+}
+
+#navigation #mainNav ul li a{
+	text-decoration: none;
+	font-family: 'nexa_slab_bold_freeregular', sans-serif;
+	display: inline-block;
+	padding: 0px 35px 28px 35px;
+	margin-top: 25px;
+	color: #fff;
+	font-size: 18pt;
+}
+
+#navigation #mainNav ul li a:hover{
+	color: #8dc63f;
+	border-bottom: solid medium #8dc63f;	
+}
+
+#logo{
+	float: left;
+	padding-right: 50px;
+	padding-top: 8px;
+	padding-left: 10px;
+}
+
+#basket{
+	float: right;
+	padding: 25px 35px 35px 35px;
+}
+
+#basket:hover {
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'nexa_slab_bold_freeregular', sans-serif;
+}
+
+#heroImage{
+	background-image: url(../Images/fog-back.jpg);
+	background-position: center center;
+	background-size: cover;
+	min-height: 800px;
+}
+
+#content{
+	width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	font-size: 40pt;
+	color: #8dc63f;
+	padding: 58px 0 20px 0;
+}
+
+#content p{
+	width: 650px;
+	height: 350px;
+	line-height: 38px;
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 18pt;
+	color: #252525;
+	display: inline-block;
+}
+
+#eyePhoto{
+	float: right;
+	padding: 58px 0 0 0;
+
+}
+
+#gallerysection{
+	margin-left: 84px;
+}
+
+.galleryImage{
+	display: inline-block;	
+}
+.galleryImage img:hover{
+	-webkit-opacity: .4;
+	opacity: .4;
+	-webkit-transition: all .9s ease;
+	-o-transition: all .9s ease;
+	transition: all .9s ease;
+}
+
+#photoMan{
+	float: right;
+	display: block;
+	padding: 58px 0 0 0;
+}
+
+#content form {
+	padding-bottom: 58px;
+}
+
+input[type=text], select{
+	width: 800px;
+	margin-bottom: 20px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	display: block;
+	margin-left: 84px;
+}
+
+textarea{
+	width: 800px;
+	height: 150px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	display: block;
+	margin-left: 84px;
+	resize: none;
+	margin-bottom: 20px;
+	color: #acacac;
+}
+
+input[type=submit]{
+	width: 800px;
+	background-color: #8dc63f;
+	margin-left: 84px;
+	border-radius: 10px;
+	border: none;
+	padding: 10px 0;
+	font-size: 16pt;
+	color: #fff;
+}
+
+input[type=submit]:hover{
+	background-color: #77a934;
+}
+
+#pageFooter{
+	background-color:#000;
+	height: 300px;
+}
+
+#social .innersocial{
+	width: 700px;
+	margin: auto;
+	padding-top: 58px;
+}
+
+#pageFooter #social ul li {
+	display: inline;
+	margin-right: 25px;
+} 
+
+#pageFooter #social ul li a{
+	display: inline-block;
+	background-image: url(../Images/social.png);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#pageFooter #social ul li a.facebook{
+	background-position: 0px 0px;}
+
+#pageFooter #social ul li a.twitter{
+	background-position: -125px 0 ;
+}
+
+#pageFooter #social ul li a.instagram{
+	background-position: -250px 0 ;
+}
+
+#pageFooter #social ul li a.google{
+	background-position: -375px 0 ;
+}
+
+#pageFooter #social ul li a.pinterest{
+	background-position: -500px 0 ;
+}
+
+#pageFooter #social ul li a:hover{
+	background-position-y: -100px;
+}
+#pageFooter #copyright p{
+	width: 100%;
+	height: 50px;
+	font-family: sans-serif;
+	margin: auto;
+	text-align: center;
+	padding: 90px 0 0 0;
+	color: #fff;
+}
+
+
+
